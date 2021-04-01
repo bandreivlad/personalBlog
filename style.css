@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+
+body {
+    background: url("https://thumbs.dreamstime.com/b/traditional-motifs-background-dancers-138372985.jpg");
+}
+
+main {
+    background: rgba(255, 255, 255, 0.9);
+    width: 90%;
+    height: 100%;
+    margin: 0 auto 0 auto;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-bottom: 2px double black;
+}
+
+a {
+    font-family: Neucha, "Times New Roman", monospace;
+    color: #000000;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 2em;
+    padding: 0.5em 0.5em 0.25em 0.5em
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    background: rgb(86, 83, 83, 0.4);
+}
+
+@media (max-width: 1400px) {
+    a {
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width: 1000px) {
+    a {
+        font-size: 1em;
+    }
+}
